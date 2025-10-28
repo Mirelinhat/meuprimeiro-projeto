@@ -15,55 +15,61 @@ color: #f0eff4;;
 padding: 10px
 }
 .topo a{
-  text-align: right;
-  font-size: 20px
+  
+  font-size: 10px
 }
 .topo h1{
-  font-size: 50px;
+  font-size: 20px;
 }
 
  
 }
 .titulo{
   text-align: right;
-  font-family: monospace;
+ 
   background-color: #f0eff4;
   color: #8ca9d3;
-  padding: 50px;
+  padding: 0px;
   margin: 0px;
   text-align: center;
+  
 }
  .titulo p{
-  font-size: 30px;
+  font-size: 15px;
   color: black;
-  font-family: monospace;
   background-color: white;
-  text-align: center;
   margin: 0px;
   padding: 30px;
+  justify-content: center;
 }
 h2{
-  font-size: 40px;
-  font-family: monospace;
+  font-size: 20px;
+ 
   color: #8ca9d3;
   text-align: center;
  
 }
 
-.titulo img{
 
-  width: 500px;
-  height: 500px;
-align-items: center;
-  top: 100px;
-
-}
 
 .conteudo p{
   background-color: white;
   padding: 10px;
 }
+.conteudo h3{
+
+}
   .body2{
     background-color: white;
     margin-top: 0px;
+  }
+  .conteudo img{
+    width: 500px;
+    height: 400px;
+  
+    
+    
+  }
+  .conteudo{
+  text-align: center;
   }

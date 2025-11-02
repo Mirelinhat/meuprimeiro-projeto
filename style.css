@@ -1,33 +1,40 @@
 /* ======== GERAL ======== */
 body{
-background-color: #f0eff4;
-margin:10px;
-padding: 0px
+background-color: #f3f3f3;
+margin:0px;
+padding: 0px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 }
 
 
 .topo{
-font-family:monospace;
-background-color:#8ca9d3;
+background-color:#f52222;
 text-align: center;
-color: #f0eff4;;
-padding: 10px
+color: #ffffff;
+padding: 10px;
 }
-.topo a{
-  
-  font-size: 10px
-}
-.topo h1{
+
+.menu{ 
   font-size: 20px;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #fd4646;
+  text-align: center;
+}
+
+.topo h1{
+ font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 600;
+  font-size: 34px;
+  letter-spacing: 0.5px;
 }
 
  
-}
+
 .titulo{
   text-align: right;
  
-  background-color: #f0eff4;
+  background-color: #ffffff;
   color: #8ca9d3;
   padding: 0px;
   margin: 0px;
@@ -35,7 +42,7 @@ padding: 10px
   
 }
  .titulo p{
-  font-size: 15px;
+  font-size: 18px;
   color: black;
   background-color: white;
   margin: 0px;
@@ -43,33 +50,43 @@ padding: 10px
   justify-content: center;
 }
 h2{
-  font-size: 20px;
+  font-size: 30px;
  
-  color: #8ca9d3;
+  color: #000000;
   text-align: center;
+
  
 }
 
 
 
-.conteudo p{
-  background-color: white;
-  padding: 10px;
-}
+
 .conteudo h3{
 
 }
-  .body2{
-    background-color: white;
-    margin-top: 0px;
-  }
+
   .conteudo img{
     width: 500px;
     height: 400px;
-  
-    
-    
   }
-  .conteudo{
+.corpo{
+  background-color: white;
+}
+
+ul{ 
+font-size: 20px;
+
+list-style-position: outside;
+}
+.corpo{
   text-align: center;
-  }
+  margin: 15px;
+}
+ .corpo ul{
+  text-align: left;
+ }
+ .conteudo p{
+  font-size: 18px;
+ justify-content: center;
+ }
+ 

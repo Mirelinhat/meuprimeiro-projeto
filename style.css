@@ -1,8 +1,8 @@
 /* ======== GERAL ======== */
 body{
 background-color: #f3f3f3;
-margin:0px;
-padding: 0px;
+margin:0px;/*retirar a margem padrão do navegador*/
+padding: 0px;/*retirar o espaçamento padrão do navegador*/
 font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 }
@@ -11,7 +11,8 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
 .topo{
 background-color:#451531;
 padding: 10px;
-text-align: center;
+text-align: center;/*centralizar o texto*/
+
 
 }
 
@@ -21,17 +22,17 @@ text-align: center;
   font-size: 20px;
   font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   background-color: #451531;
-  justify-content: center;
+  justify-content: center;/* centralizar os itens */
   display: flex; /*usado para deixar todos na mesma linha */
   gap: 25px; /*espaçamento entre os itens */
-  flex-wrap: wrap;
+  flex-wrap: wrap;/* quebrar a linha se necessário*/
   padding: 10px;
 }
 .menu a{
   color: #ffffff;
   padding: 8px;
   border-radius: 6px;
-  background-color: #7a2557;
+  background-color: #7e2f5d;
 
 }
 .menu a:hover{
@@ -64,28 +65,28 @@ h2{
     height: 400px;
     border-radius: 10px;
   }
-.corpo{
-  background-color: white;
-}
+
 
 ul{ 
 font-size: 20px;
 
-list-style-position: outside;
+list-style-position: outside;/*coloca o marcador fora do texto*/
 }
 .corpo{
   text-align: center;
   margin: auto;
-  max-width: 800px;
- 
-  
+  max-width: 800px;/*limitar a largura do conteudo*/
+  box-shadow: 8px 8px 5px 5px #aaaaaa;/*sombra ao redor da caixa*/
+  background-color: #ffffff;
+  border-radius: 10px;
+
 }
  .corpo ul{
   text-align: left;
  }
  .conteudo p{
   font-size: 30px;
- justify-content: center;
+ justify-content: center;/*centralizar os itens*/
  }
 img{
   width:500px;
@@ -93,8 +94,10 @@ img{
 }
  .corpo p{
   font-size: 20px;
-  justify-content: center;
-  text-align: justify;
+  text-align: justify;/* alinha o texto dos dois lados*/
   padding: 15px;
  }
-
+ h2{
+  color: #7a2557;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+ }

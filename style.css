@@ -15,7 +15,7 @@ text-align: center;/*centralizar o texto*/
 }
 .topo img{
   height: 300px;
-  width: 1351px;
+  width: 1900px;
   margin: 0px;
   padding:0px;
 }
@@ -95,6 +95,10 @@ img{
   ;
  }
  h2{
-  color: #38f1e2;
+  color: #ffffffff;
  
+ }
+ a{
+  text-decoration: none; /*tira o sublinhado do link*/
+  color: #ffffff;
  }

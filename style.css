@@ -16,7 +16,7 @@ body {
 }
 
 .topo img {
-  height: 250px;
+  height: 270px;
   width: 100%;
   margin: 0px;
   padding: 0px;
@@ -135,4 +135,20 @@ iframe {
   height: 400px;
   border-radius: 20px;
   margin: 15px;
+}
+
+.index{   text-align: center;
+  margin: auto;
+  max-width: 800px;
+  /*limitar a largura do conteudo*/
+
+  background-color: #ffffff;
+  color: #000000;
+  box-shadow: 0px 0px 15px 0px #7a97bd;
+  /*sombra ao redor da caixa*/
+  border-radius: 20px;
+
+  /* padding: 20px; */
+  /* border: 20px; */
+
 }

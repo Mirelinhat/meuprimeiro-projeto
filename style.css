@@ -16,10 +16,12 @@ body {
 }
 
 .topo img {
-  height: 270px;
+  height: 302,
+  00px;
   width: 100%;
   margin: 0px;
   padding: 0px;
+  border-radius: 0px;
 }
 
 .menu {
@@ -116,26 +118,8 @@ iframe {
   padding: 50px;
 }
 
-.corpo2 {
-  text-align: center;
-  margin: auto;
-  max-width: 800px;
-  /*limitar a largura do conteudo*/
 
-  background-color: #ffffff;
-  border-radius: 0px;
-  color: #000000;
 
-  display: flex;
-}
-
-.corpo2 img {
-  width: 500px;
-  /* largura*/
-  height: 400px;
-  border-radius: 20px;
-  margin: 15px;
-}
 
 .index{   text-align: center;
   margin: auto;
@@ -152,3 +136,72 @@ iframe {
   /* border: 20px; */
 
 }
+.corpo1{
+   text-align: center;
+  margin: auto;
+  max-width: 800px;
+  /*limitar a largura do conteudo*/
+
+  background-color: #ffffff;
+  color: #000000;
+  box-shadow: 0px 0px 15px 0px #7a97bd;
+  /*sombra ao redor da caixa*/
+  border-radius: 20px;
+
+  /* padding: 20px; */
+  /* border: 20px; */
+}
+ img{
+  width: 400px;
+  height: 300px;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+
+  
+ .formulario{
+ text-align: center;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 15px 0px #7a97bd;
+  width: 400px;
+  margin: auto;
+  height: 500px;
+  border-radius: 20px;
+ }
+ .formulario button{
+  background-color: #000000;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+
+  display: inline-block;/* para o botão não ocupar a linha toda */
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;/*muda o cursor quando passa por cima do botão */
+  border-radius: 12px;
+  box-shadow: 0px 0px 10px 0px #7a97bd;
+ }
+.formulario input{
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+ }
+  .formulario textarea{
+    width: 80%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    resize: none; /*impede o redimensionamento da caixa de texto */
+  }
+  .h2 p{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+  color: black;
+   text-align: center;
+  }
